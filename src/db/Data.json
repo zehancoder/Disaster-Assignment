@@ -1,0 +1,81 @@
+{
+  "navber": [
+    {
+        "title": "Dashboard",
+        "link": "/"
+    },
+    {
+        "title": "Incidents",
+        "link": "/Incidents"
+    },
+    {
+        "title": "Locations",
+        "link": "/Locations"
+    },
+    {
+        "title": "Activities",
+        "link": "/Activities"
+    },
+    {
+        "title": "Documents",
+        "link": "/Documents"
+    },
+    {
+        "title": "Cypher AI",
+        "link": "/CypherAI"
+    }
+    
+  ],
+  "Cards": [
+    {
+      "id": 1,
+      "img": "/constractor/consOne.png",
+      "heading": "Whitechapel Rd.",
+      "para": "Tulare County,  Los Angles, CA 23415",
+      "price": "$1,456,654.00"
+    },
+    {
+      "id": 2,
+      "img": "/constractor/consTwo.png",
+      "heading": "Whitechapel Rd.",
+      "para": "Tulare County,  Los Angles, CA 23415",
+      "price": "$1,456,654.00"
+    },
+    {
+      "id": 3,
+      "img": "/constractor/consThree.png",
+      "heading": "Tulare County",
+      "para": "Tulare County,  Los Angles, CA 23415",
+      "price": "$1,456,654.00"
+    },
+    {
+      "id": 4,
+      "img": "/constractor/consFour.png",
+      "heading": "Tulare County",
+      "para": "Tulare County,  Los Angles, CA 23415",
+      "price": "$1,456,654.00"
+    },
+    {
+      "id": 5,
+      "img": "/constractor/consFive.png",
+      "heading": "Tulare County",
+      "para": "Tulare County,  Los Angles, CA 23415",
+      "price": "$1,456,654.00"
+    },
+    {
+      "id": 6,
+      "img": "/constractor/consSix.png",
+      "heading": "Tulare County",
+      "para": "Tulare County,  Los Angles, CA 23415",
+      "price": "$1,456,654.00"
+    }
+  ],
+  "Notification": [
+    "An identifier of a group of messages that can be collapsed, so that only the last message gets sent when delivery can be resumed. A maximum of 4 different collapse keys is allowed at any given time.",
+    "An identifier of a group of messages that can be collapsed, so that only the last message gets sent when delivery can be resumed. A maximum of 4 different collapse keys is allowed at any given time.",
+    "An identifier of a group of messages that can be collapsed, so that only the last message gets sent when delivery can be resumed. A maximum of 4 different collapse keys is allowed at any given time.",
+    "An identifier of a group of messages that can be collapsed, so that only the last message gets sent when delivery can be resumed. A maximum of 4 different collapse keys is allowed at any given time.",
+    "An identifier of a group of messages that can be collapsed, so that only the last message gets sent when delivery can be resumed. A maximum of 4 different collapse keys is allowed at any given time.",
+    "An identifier of a group of messages that can be collapsed, so that only the last message gets sent when delivery can be resumed. A maximum of 4 different collapse keys is allowed at any given time."
+  ]
+}

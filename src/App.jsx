@@ -1,17 +1,21 @@
-import { Button } from '@mui/material'
-import './App.css'
-
+import { BrowserRouter } from "react-router-dom";
+import "./App.css";
+import { MyButton } from "./components/common/Button";
+import { HeroFunc } from "./components/common/Hero";
+import { TitleFunc, TitleTwo } from "./components/common/Title";
+import { NavFunc } from "./components/fixedComponent/Navber";
 function App() {
-
   return (
     <>
-      <h1 className='text-5xl font-bold text-center text-gray-600 '>Hello World</h1>
-      <Button variant='contained'>
-        Click
-      </Button>
-
+      <BrowserRouter>
+        {/* <MyButton>Cypher AI</MyButton>
+      <TitleFunc>Hello</TitleFunc> */}
+        <TitleTwo>Dashboard</TitleTwo>
+        <HeroFunc />
+        <NavFunc />
+      </BrowserRouter>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
