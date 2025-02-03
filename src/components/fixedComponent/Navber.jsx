@@ -9,15 +9,18 @@ export const NavFunc = () => {
     setToggle(!toggle)
   }
   return (
-    <BigContainer>
-      <header className="flex border-b border-[#E4E4E7] items-center justify-between 2xl:px-0 px-4 lg:py-0 py-3">
-        <img src="/logo.png" alt="Logo" />
+    <div className="border-b border-b-zinc-300">
+      <BigContainer className="bg-zinc-200">
+      <header className="flex  bg-zinc-200 items-center justify-between 2xl:px-0 lg:py-0 py-3">
+        <Link to="/">
+          <img src="/logo.png" alt="Logo" />
+        </Link>
         <div className="hidden lg:flex items-center justify-center gap-3 md:gap-4 xl:gap-6">
           {MyData.navber.map((val, i) => (
             <Link
               key={i}
               to={val.link}
-              className="overflow-hidden cursor-pointer text-[14px] leading-[17.85px] font-[400] font-onset pb-5 mt-5 transition-all duration-200 hover:font-bold border-b-3 border-transparent hover:border-b-black"
+              className="overflow-hidden text-zinc-500 hover:text-black cursor-pointer text-[14px] leading-[17.85px] font-[400] font-onset pb-5 mt-5 transition-all duration-200 hover:font-bold border-b-3 border-transparent hover:border-b-black"
             >
               <p>{val.title}</p>
             </Link>
@@ -43,5 +46,6 @@ export const NavFunc = () => {
       </header>
       <Toggle toggle = {toggle} setToggle = {setToggle}/>
     </BigContainer>
+    </div>
   );
 };

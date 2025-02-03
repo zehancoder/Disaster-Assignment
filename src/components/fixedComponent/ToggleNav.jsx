@@ -17,7 +17,7 @@ export const Toggle = ({ toggle, setToggle }) => {
             <Link
               key={i}
               to={val.link}
-              className="cursor-pointer text-[14px] leading-[17.85px] font-[400] font-onset transition-all duration-200 hover:font-bold"
+              className="cursor-pointer text-white hover:text-black text-[14px] leading-[17.85px] font-[400] font-onset transition-all duration-200 hover:font-bold"
               onClick={closeNav}
             >
               <p>{val.title}</p>

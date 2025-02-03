@@ -6,7 +6,7 @@ export const Container = ({children, className}) => {
     </div>
 }
 export const BigContainer = ({children, className}) => {
-    return <div className={cn("mx-auto max-w-[1300px]", className)}>
+    return <div className={cn("mx-auto w-full px-3 md:px-10 lg:px-14 xl:px-16", className)}>
         {children}
     </div>
 }

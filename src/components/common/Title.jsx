@@ -6,3 +6,8 @@ export const TitleFunc = ({children, className}) => {
 export const TitleTwo = ({children, className}) => {
     return <h1 className={cn("text-xl sm:text-[22px] text-[#09090B] leading-[33.15px] lg:text-[26px] font-bold", className)}>{children}</h1>
 }
+export const SmallText = ({children, className}) => {
+    return <p className={cn("text-xs text-zinc-500 font-onset leading-[15.3px]", className)}>
+        {children}
+    </p>
+}
