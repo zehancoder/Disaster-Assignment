@@ -1,6 +1,7 @@
 import { Button } from "@mui/material";
 import myData from "../../db/Data.json";
 import { BigContainer } from "./IncidentContainer";
+import { Link } from "react-router-dom";
 export const HeroFunc = () => {
   return (
     <>
@@ -18,7 +19,9 @@ export const HeroFunc = () => {
                   <img src="./icons/BlizzardMan.png" alt="constractor" />
                   <p className="text-xs font-bold font-onset">Blizzard</p>
                 </div>
-                <Button id="MuiBtn" variant="bordered">View Incident</Button>
+                <Link to="/Incidents">
+                  <Button id="MuiBtn" variant="bordered">View Incidents</Button>
+                </Link>
               </div>
               <h1 className="font-bold text-base md:text-lg mt-4 font-onset">
                 {heading}
