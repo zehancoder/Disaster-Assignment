@@ -36,7 +36,14 @@ export const IncidentFunc = () => {
             />
           </div>
         }
-        btns={<Link to={"/CreateIncident"}><MyButton className={"flex items-center gap-1"}><IoMdAdd className="text-lg font-bold" />New Incident</MyButton></Link>}
+        btns={
+          <Link to={"/CreateIncident"}>
+            <MyButton className={"flex items-center gap-1"}>
+              <IoMdAdd className="text-lg font-bold" />
+              New Incident
+            </MyButton>
+          </Link>
+        }
       />
       <BigContainer className="pt-16 pb-12">
         <HeroFunc

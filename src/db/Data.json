@@ -77,5 +77,22 @@
     "An identifier of a group of messages that can be collapsed, so that only the last message gets sent when delivery can be resumed. A maximum of 4 different collapse keys is allowed at any given time.",
     "An identifier of a group of messages that can be collapsed, so that only the last message gets sent when delivery can be resumed. A maximum of 4 different collapse keys is allowed at any given time.",
     "An identifier of a group of messages that can be collapsed, so that only the last message gets sent when delivery can be resumed. A maximum of 4 different collapse keys is allowed at any given time."
+  ],
+  "StartingCards": [
+    {
+      "img": "/icons/pan.png",
+      "heading": "What type of incident?",
+      "para": "Choose the category that best describes the incident."
+    },
+    {
+      "img": "/icons/index.png",
+      "heading": "Tell us about the incident?",
+      "para": "Let’s connect the dots and see where to start."
+    },
+    {
+      "img": "/icons/Maps.png",
+      "heading": "Where did the incident occur?",
+      "para": "Lorem ipsum dolar sit general sac mascho werho"
+    }
   ]
 }

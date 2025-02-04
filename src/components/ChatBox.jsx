@@ -1,9 +1,13 @@
 import { CiCamera } from "react-icons/ci";
 import { RiGalleryLine } from "react-icons/ri";
 import { MyButton } from "./common/Button";
-export const Chat = ({chat}) => {
+export const Chat = ({ chat }) => {
   return (
-    <div className={`rounded-xl transition duration-300 overflow-hidden bg-[#F4F4F5] origin-bottom-right ${chat ? `h-full scale-100` : `scale-0 h-0`} `}>
+    <div
+      className={`rounded-xl transition duration-300 overflow-hidden bg-[#F4F4F5] origin-bottom-right ${
+        chat ? `h-full scale-100` : `scale-0 h-0`
+      } `}
+    >
       <div className="py-5 bg-myYollow px-4 w-72 md:w-[350px]">
         <h1 className="text-base md:text-[18px] text-white font-bold font-onset tracking-wide leading-[22.95px]">
           Chat with Cypher
@@ -46,12 +50,12 @@ export const Chat = ({chat}) => {
       </div>
       <div className="px-4 py-2 flex items-center justify-between">
         <div className="flex items-center gap-3 text-lg text-zinc-500">
-            <CiCamera className="cursor-pointer text-xl"/>
-            <RiGalleryLine className="cursor-pointer "/>
-            <img src="/vector.png" alt="vector" className="cursor-pointer w-4"/>
+          <CiCamera className="cursor-pointer text-xl" />
+          <RiGalleryLine className="cursor-pointer " />
+          <img src="/vector.png" alt="vector" className="cursor-pointer w-4" />
         </div>
         <MyButton className="h-auto w-auto text-[10px] md:text-xs rounded-full py-1 px-3">
-            Send
+          Send
         </MyButton>
       </div>
     </div>
