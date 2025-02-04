@@ -6,9 +6,9 @@ export const HeroFunc = () => {
   return (
     <>
       <BigContainer className="px-4 md:px-2">
-        <div className="flex flex-wrap items-center md:justify-normal justify-center gap-5 space-y-3">
+        <div className="flex flex-wrap items-center md:justify-normal justify-center gap-6 space-y-3">
           {myData.Cards.map(({ id, img, para, price, heading }) => (
-            <div key={id} className="mx-auto xl:mx-0 relative">
+            <div key={id} className="mx-auto 2xl:mx-0 relative">
               <div className="w-full relative rounded-xl" id="animate">
                 <img
                   className="max-w-[306px] w-full"

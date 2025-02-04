@@ -9,8 +9,8 @@ export const NavFunc = () => {
     setToggle(!toggle)
   }
   return (
-    <div className="border-b border-b-zinc-300">
-      <BigContainer className="bg-zinc-200">
+    <div className="  py-3 bg-zinc-200">
+      <BigContainer className="bg-zinc-200 border-b-zinc-300 border-b">
       <header className="flex  bg-zinc-200 items-center justify-between 2xl:px-0 lg:py-0 py-3">
         <Link to="/">
           <img src="/logo.png" alt="Logo" />
