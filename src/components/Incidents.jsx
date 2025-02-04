@@ -1,7 +1,7 @@
 import { BigContainer } from "./common/IncidentContainer";
 import { HeroFunc } from "./common/Hero";
 import { IoMdAdd } from "react-icons/io";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { NavsTwo } from "./common/NavsTwo";
 import { CiSearch } from "react-icons/ci";
 import { MyButton } from "./common/Button";
@@ -37,12 +37,12 @@ export const IncidentFunc = () => {
           </div>
         }
         btns={
-          <Link to={"/CreateIncident"}>
+          <NavLink to={"/CreateIncident"}>
             <MyButton className={"flex items-center gap-1"}>
               <IoMdAdd className="text-lg font-bold" />
               New Incident
             </MyButton>
-          </Link>
+          </NavLink>
         }
       />
       <BigContainer className="pt-16 pb-12">

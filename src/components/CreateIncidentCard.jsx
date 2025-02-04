@@ -34,7 +34,7 @@ export const CreateIncidentFunc = () => {
               </div>
             </div>
             <MyButton className="md:mt-20 mt-14">
-              <Link to="/SelectIncident">Get Started</Link>
+              <Link to="/CreateIncident">Get Started</Link>
             </MyButton>
           </div>
         </div>
