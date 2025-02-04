@@ -5,6 +5,11 @@
     --color-myOpacity: #E4E4E780;
     --font-onset: "Onest", serif;
 }
+.active{
+    border-bottom: 3px solid black;
+    font-weight: 700;
+    color: black;
+}
 #animate{
     position: relative;
     overflow: hidden;
@@ -48,4 +53,7 @@
 }
 #animate:hover #MuiBtn {
     opacity: 1;
+}
+.customShadow{
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.267);
 }

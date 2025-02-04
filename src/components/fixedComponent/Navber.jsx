@@ -1,6 +1,6 @@
 import { BigContainer } from "../common/IncidentContainer";
 import MyData from "../../db/Data.json";
-import {Link} from "react-router-dom";
+import {Link, NavLink} from "react-router-dom";
 import { Toggle } from "./ToggleNav";
 import { useState } from "react";
 export const NavFunc = () => {
@@ -17,13 +17,13 @@ export const NavFunc = () => {
         </Link>
         <div className="hidden lg:flex items-center justify-center gap-3 md:gap-4 xl:gap-6">
           {MyData.navber.map((val, i) => (
-            <Link
+            <NavLink
               key={i}
               to={val.link}
               className="overflow-hidden text-zinc-500 hover:text-black cursor-pointer text-[14px] leading-[17.85px] font-[400] font-onset pb-5 mt-5 transition-all duration-200 hover:font-bold border-b-3 border-transparent hover:border-b-black"
             >
               <p>{val.title}</p>
-            </Link>
+            </NavLink>
           ))}
         </div>
         <div className="hidden lg:flex items-center gap-4">
