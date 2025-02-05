@@ -1,5 +1,5 @@
 import MyData from "../../db/Data.json";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { IoClose } from "react-icons/io5";
 export const Toggle = ({ toggle, setToggle }) => {
   const closeNav = () => {
@@ -14,14 +14,14 @@ export const Toggle = ({ toggle, setToggle }) => {
       <header className=" 2xl:px-0 px-4 lg:py-0 py-3 float-end relative w-full text-center">
         <div className="flex flex-col gap-4 mt-10">
           {MyData.navber.map((val, i) => (
-            <Link
+            <NavLink
               key={i}
               to={val.link}
               className="cursor-pointer text-white hover:text-black text-[14px] leading-[17.85px] font-[400] font-onset transition-all duration-200 hover:font-bold"
               onClick={closeNav}
             >
               <p>{val.title}</p>
-            </Link>
+            </NavLink>
           ))}
         </div>
         <div className="space-y-3 mt-5 ">

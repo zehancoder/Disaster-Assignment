@@ -1,30 +1,29 @@
 {
   "navber": [
     {
-        "title": "Dashboard",
-        "link": "/"
+      "title": "Dashboard",
+      "link": "/"
     },
     {
-        "title": "Incidents",
-        "link": "/Incidents"
+      "title": "Incidents",
+      "link": "/Incidents"
     },
     {
-        "title": "Locations",
-        "link": "/Locations"
+      "title": "Locations",
+      "link": "/Locations"
     },
     {
-        "title": "Activities",
-        "link": "/Activities"
+      "title": "Activities",
+      "link": "/Activities"
     },
     {
-        "title": "Documents",
-        "link": "/Documents"
+      "title": "Documents",
+      "link": "/Documents"
     },
     {
-        "title": "Cypher AI",
-        "link": "/CypherAI"
+      "title": "Cypher AI",
+      "link": "/CypherAI"
     }
-    
   ],
   "Cards": [
     {
@@ -93,6 +92,80 @@
       "img": "/icons/Maps.png",
       "heading": "Where did the incident occur?",
       "para": "Lorem ipsum dolar sit general sac mascho werho"
+    }
+  ],
+  "StepTwoData": [
+    {
+      "img": "/icons/Avalanche.png",
+      "text": "Avalanche"
+    },
+    {
+      "img": "/icons/Biological.png",
+      "text": "Biological"
+    },
+    {
+      "img": "/icons/BlizzardIcon.png",
+      "text": "Blizzard"
+    },
+    {
+      "img": "/icons/ColdFreezing.png",
+      "text": "Cold/Freezing"
+    },
+    {
+      "img": "/icons/Drought.png",
+      "text": "Drought"
+    },
+    {
+      "img": "/icons/Earthquake.png",
+      "text": "Earthquake"
+    },
+    {
+      "img": "/icons/Flooding.png",
+      "text": "Flooding"
+    },
+    {
+      "img": "/icons/HeatWave.png",
+      "text": "Heat Wave"
+    },
+    {
+      "img": "/icons/Hail.png",
+      "text": "Hail"
+    },
+    {
+      "img": "/icons/Lightning.png",
+      "text": "Lightning"
+    },
+    {
+      "img": "/icons/ManMade.png",
+      "text": "Man Made"
+    },
+    {
+      "img": "/icons/Mudslide.png",
+      "text": "Mudslide"
+    },
+    {
+      "img": "/icons/SevereStorm.png",
+      "text": "Severe Storm"
+    },
+    {
+      "img": "/icons/StrongWind.png",
+      "text": "Strong Wind"
+    },
+    {
+      "img": "/icons/Tornado.png",
+      "text": "Tornado"
+    },
+    {
+      "img": "/icons/Tsunami.png",
+      "text": "Tsunami"
+    },
+    {
+      "img": "/icons/VolcanicEruption.png",
+      "text": "Volcanic Eruption"
+    },
+    {
+      "img": "/icons/Wildfire.png",
+      "text": "Wildfire"
     }
   ]
 }

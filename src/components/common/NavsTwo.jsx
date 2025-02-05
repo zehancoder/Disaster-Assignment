@@ -8,13 +8,21 @@ export const NavsTwo = ({
   inputs,
   selectOption,
   btns,
+  CrossImg,
+  LineTracker,
 }) => {
   return (
     <BigContainer className="bg-zinc-200">
       <div className="flex items-center justify-between py-5 md:py-7">
+        <div className="flex items-center gap-2">
+          <div>{CrossImg}</div>
+          <div>
+            <SmallText>{smallParaText}</SmallText>
+            <TitleTwo className="mt-1">{BigText}</TitleTwo>
+          </div>
+        </div>
         <div>
-          <SmallText>{smallParaText}</SmallText>
-          <TitleTwo className="mt-1">{BigText}</TitleTwo>
+          <div className="relative">{LineTracker}</div>
         </div>
         <div
           className={`flex flex-wrap  items-center gap-5 justify-end md:px-0 px-3`}
