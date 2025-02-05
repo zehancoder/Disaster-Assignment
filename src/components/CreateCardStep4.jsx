@@ -22,7 +22,7 @@ export const StepFour = () => {
           </Link>
         }
         btns={
-          <Link onClick={levelUp} to={"/CardStep4"}>
+          <Link onClick={levelUp} to={"/Locations"}>
             <MyButton className={"md:px-12 px-7"}>Finished</MyButton>
           </Link>
         }
@@ -52,6 +52,7 @@ export const StepFour = () => {
           </SmallText>
           <div className="rounded-lg overflow-hidden mt-4 relative">
             <img src="/maps/mapsOne.png" alt="" />
+            <img className="absolute top-[30%] w-[25px] md:w-auto right-[30%]" src="/icons/LocationTwo.png" alt="" />
             <div className="absolute top-4 left-4">
               <div className=" bg-white rounded-[6px] px-3 py-3 flex items-center gap-2 border border-zinc-200 shadow">
                 <CiSearch className="text-lg" />

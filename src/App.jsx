@@ -8,6 +8,7 @@ import ErrorsFunc from "./components/Page404Found";
 import { SelectIncident } from "./components/CreateCardStep2";
 import { StepThree } from "./components/CreateCardStep3";
 import { StepFour } from "./components/CreateCardStep4";
+import { LocationFunc } from "./components/Location";
 function App() {
   return (
     <>
@@ -20,6 +21,7 @@ function App() {
           <Route path="/SelectIncident" element = {<SelectIncident/>}></Route>
           <Route path="/CardStep3" element = {<StepThree/>}></Route>
           <Route path="/CardStep4" element = {<StepFour/>}></Route>
+          <Route path="/Locations" element = {<LocationFunc/>}></Route>
           <Route path="*" element = {<ErrorsFunc/>}></Route>
         </Routes>
       </BrowserRouter>
