@@ -6,7 +6,7 @@ import { SmallText, TitleFunc } from "./common/Title";
 import { Container } from "@mui/material";
 export const StepThree = () => {
   const [level, setLevel] = useState(false);
-  const leveUp = () => setLevel(!level);
+  const levelUp = () => setLevel(!level);
   return (
     <div>
       <NavsTwo
@@ -20,7 +20,7 @@ export const StepThree = () => {
           </Link>
         }
         btns={
-          <Link onClick={leveUp} to={"/CardStep4"}>
+          <Link onClick={levelUp} to="/CardStep4">
             <MyButton className={"md:px-12 px-7"}>Next</MyButton>
           </Link>
         }

@@ -7,6 +7,7 @@ import { CreateIncidentFunc } from "./components/CreateIncidentCard";
 import ErrorsFunc from "./components/Page404Found";
 import { SelectIncident } from "./components/CreateCardStep2";
 import { StepThree } from "./components/CreateCardStep3";
+import { StepFour } from "./components/CreateCardStep4";
 function App() {
   return (
     <>
@@ -18,6 +19,7 @@ function App() {
           <Route path="/CreateIncident" element = {<CreateIncidentFunc/>}></Route>
           <Route path="/SelectIncident" element = {<SelectIncident/>}></Route>
           <Route path="/CardStep3" element = {<StepThree/>}></Route>
+          <Route path="/CardStep4" element = {<StepFour/>}></Route>
           <Route path="*" element = {<ErrorsFunc/>}></Route>
         </Routes>
       </BrowserRouter>
