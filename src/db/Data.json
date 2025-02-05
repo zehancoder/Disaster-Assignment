@@ -167,5 +167,31 @@
       "img": "/icons/Wildfire.png",
       "text": "Wildfire"
     }
+  ],
+  "LocationCardData": [
+    {
+      "img": "/constractor/builOne.png",
+      "heading": "Whitechapel Rd.",
+      "para": "Tulare County,  Los Angles, CA 23415",
+      "price": "$1,456,654.00"
+    },
+    {
+      "img": "/constractor/builTwo.png",
+      "heading": "Whitechapel Rd.",
+      "para": "Tulare County,  Los Angles, CA 23415",
+      "price": "$1,456,654.00"
+    },
+    {
+      "img": "/constractor/builOne.png",
+      "heading": "Whitechapel Rd.",
+      "para": "Tulare County,  Los Angles, CA 23415",
+      "price": "$1,456,654.00"
+    },
+    {
+      "img": "/constractor/builOne.png",
+      "heading": "Whitechapel Rd.",
+      "para": "Tulare County,  Los Angles, CA 23415",
+      "price": "$1,456,654.00"
+    }
   ]
 }
