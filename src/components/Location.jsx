@@ -1,9 +1,10 @@
 import { NavsTwo } from "./common/NavsTwo";
-import { SmallText } from "./common/Title";
+import { SmallText, TitleTwo } from "./common/Title";
 import { CiSearch } from "react-icons/ci";
 import { Link } from "react-router-dom";
 import { MyButton } from "./common/Button";
 import { IoMdAdd } from "react-icons/io";
+import { BigContainer } from "./common/IncidentContainer";
 export const LocationFunc = () => {
   return (
     <>
@@ -43,8 +44,44 @@ export const LocationFunc = () => {
             </MyButton>
           </Link>
         }
-        
       />
+      <BigContainer>
+        <div className="flex md:px-8 mt-8 lg:px-12 items-center justify-between gap-3">
+          <div>
+            <div className="py-8 border-b border-b-zinc-400">
+              <div className="flex items-center gap-3">
+                <img src="/whiteLocate.png" alt="" />
+                <div>
+                  <SmallText>Location</SmallText>
+                  <TitleTwo>Tulare County, Los Angles, CA 23415</TitleTwo>
+                </div>
+              </div>
+              <div className="flex mt-8 items-center gap-3">
+                <img src="/camera.png" alt="" />
+                <div>
+                  <SmallText>Approx. Cost:</SmallText>
+                  <TitleTwo>$60,607,456.00</TitleTwo>
+                </div>
+              </div>
+            </div>
+            <div className="py-12 border-b border-b-zinc-400">
+              <SmallText className={"font-extrabold text-[13px] text-black"}>
+                DrisCription
+              </SmallText>
+              <SmallText className={"text-[13px] mt-2"}>
+                Lorem ipsum dolar sit general sac mascho werhoLorem ipsum dolar
+                sit general sac mascho <br /> werhoLorem ipsum dolar sit general sac
+                mascho werhoLorem ipsum dolar sit  general sac <br /> mascho werhoLorem
+                ipsum dolar sit general sac mascho werhoLorem ipsum dolar sit <br />
+                general sac mascho werho
+              </SmallText>
+            </div>
+            <div className="py-12">
+
+            </div>
+          </div>
+        </div>
+      </BigContainer>
     </>
   );
 };
